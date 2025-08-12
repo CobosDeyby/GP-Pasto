@@ -1,0 +1,183 @@
+:root {
+    --color-primary: #c7a33e;
+    --color-secundary: #fff8eb;
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #3366cc;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+}
+
+.navbar_inicio {
+    height: 60px;
+    background-color: var(--bs-primary);
+}
+
+.navbar_inicio img {
+    height: 30px;
+}
+
+.navbar_inicio .navbar_img-bandera {
+    width: auto;
+    height: 60px;
+}
+
+.navbar_inicio .navbar_img-bandera img {
+    width: 80px;
+    height: 70px;
+    border-left: white solid 6px;
+    border-right: white solid 6px;
+}
+
+.navbar_img-1 img {
+    height: 40px;
+    width: 40px;
+}
+
+.navbar_logos-social img {
+    height: 20px;
+    width: 20px;
+}
+
+.navbar_img-1 .nav-link:hover {
+    background-color: var(--color-secundary);
+}
+
+.masthead {
+    background-size: cover;
+    background-image: url('../img/banderaColombia.png');
+    height: 8px;
+}
+.titulo_gobierno{
+    color: #3366cc;
+    font-weight: bold;
+}
+
+.numero_dias {
+
+    display: flex;
+}
+.numero_dias span:nth-child(1),
+.numero_dias span:nth-child(2),
+.numero_dias span:nth-child(3),
+.numero_dias span:nth-child(4) {
+    background-color: var(--bs-white);
+	margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 0%;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+    color: #FFCE00;
+    font-size: 35px;
+    font-weight: bold;
+    height: 45px;
+    width: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.dias_gobierno span{
+    color: #3366cc;
+    font-weight: bold;
+}
+
+.dias_gobierno::after {
+    color: #3366cc;
+    content: "DE GOBIERNO";
+    display: block;
+}
+
+.beneficiarios {
+    background-color: var(--color-secundary);
+}
+
+.responsive_img-destop img {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5rem;
+}
+
+.linea_footer-botton {
+    height: 64px;
+    background-color: var(--color-primary);
+}
+
+.table_cronograma{
+    border: black 1px solid;
+}
+
+@media (max-width: 768px) {
+    .navbar_img-1 li a {
+        border: none !important;
+    }
+
+    .navbar_img-1 li a img {
+        display: none;
+    }
+
+    .navbar_logos-social {
+        border: none !important;
+    }
+
+    .navbar_logos-social li a img {
+        display: block !important;
+    }
+}
+
+/* nav */
+ul.navbar-nav.text-center.navbar_img-1 {
+    margin: 0 auto;
+}
+
+ul.navbar-nav.text-center.navbar_img-1 li.nav-item {
+    min-width: 10vw;
+}
+
+.participa-link {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #083f99;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .participa-link:hover{
+    color: #f9c911;
+  }
+  .volver{
+    text-align: center;
+  }
+  a{
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+  }
