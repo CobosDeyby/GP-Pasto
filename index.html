@@ -166,7 +166,7 @@
     <p class="mb-1"><strong>Objetivo:</strong> Debatir con los medios alternativos de la región sobre los retos de la comunicación solidaria, las apuestas del Gobierno Nacional y promover la asociatividad.</p>
 
     <p class="mb-1">¡Inscríbete y participa! 👇🏽</p>
-    <p class="mb-1"><a href="https://forms.gle/yqoigPgBF4Uu1h9X7" target="_blank" style="color: blue; !important">https://forms.gle/yqoigPgBF4Uu1h9X7</a></p>
+    <p class="mb-1"><a href="https://forms.gle/yqoigPgBF4Uu1h9X7" target="_blank" class="btn btn-primary">INSCRIBETE AQUÍ</a></p>
   </div>
 
   <div class="table-responsive">
