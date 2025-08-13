@@ -4,21 +4,38 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Segundo encuentro nacional de medios alternativos, comunitarios y digitales" />
-    <meta name="keywords" content="medios alternativos, comunicación comunitaria, digitalización, innovación en medios, Colombia, encuentro nacional, medios digitales" />
-    <meta property="og:title" content="Segundo Encuentro Nacional de Medios Alternativos y Digitales | Colombia" />
-    <meta property="og:description" content="Únete al diálogo sobre el futuro de la comunicación en Colombia. Encuentra innovación, comunidad y cambio." />
-    <meta property="og:image" content="./img/banner_principal-min.png" />
-    <meta property="og:url" content="https://petro.presidencia.gov.co/MediosAlternativos" />
-    <meta name="twitter:card" content="./img/banner_principal-min.png" />
-    <link rel="canonical" href="https://petro.presidencia.gov.co/" />
+    <title>Encuentro de Medios Alternativos, Comunitarios y Digitales - Pasto 15 Agosto 2025</title>
+    <meta name="description" content="Participa en el Encuentro de Medios Alternativos, Comunitarios y Digitales en Pasto este 15 de agosto de 2025. Un espacio para debatir sobre comunicación solidaria y fortalecer la asociatividad." />
+    <meta name="keywords" content="Medios alternativos, Medios comunitarios, Medios digitales, Comunicación solidaria, Pasto, Encuentro 2025, Medios en Red, MinTIC, Gobierno Nacional" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Medios en Red" />
+    <meta name="language" content="es" />
+
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Encuentro de Medios Alternativos, Comunitarios y Digitales - Pasto 15 Agosto 2025" />
+    <meta property="og:description" content="Debate, talleres y conferencias sobre comunicación solidaria y medios alternativos. 15 de agosto de 2025 en la Universidad de Nariño, Pasto." />
+    <meta property="og:url" content="https://www.presidencia.gov.co/EncuentroPasto/index.html" />
+    <meta property="og:site_name" content="Medios en Red" />
+    <meta property="og:image" content="https://www.presidencia.gov.co/EncuentroPasto/img/redes_pasto.png" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Encuentro de Medios Alternativos, Comunitarios y Digitales - Pasto 15 Agosto 2025" />
+    <meta name="twitter:description" content="Un espacio de encuentro para medios alternativos, comunitarios y digitales. Pasto, 15 de agosto de 2025." />
+    <meta name="twitter:image" content="https://www.presidencia.gov.co/EncuentroPasto/img/redes_pasto.png" />
+    <meta name="twitter:site" content="@Ministerio_TIC" />
+    <meta name="twitter:creator" content="@Ministerio_TIC" />
 
 
     <link rel="icon" type="image/x-icon" href="./img/public/favicon.ico" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <title>Encuentro Nacional de Medios Alternativos y Digitales | Colombia</title>
+    
     <script>//<![CDATA[
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -47,7 +64,7 @@
         <nav class="navbar navbar-expand-md mt-2">
             <div class="container-fluid d-flex align-items-center">
                 <a class="navbar-brand me-5" href="#">
-                    <img src="./img/Colombia-Potencia-de-la-Vida.jpg" alt="" width="150" />
+                    <img src="./img/logo_presidencia.png" alt="" width="150" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -57,15 +74,9 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav text-center navbar_img-1">
                         <li class="nav-item">
-                            <a class="nav-link border-start border-end border-dark" href="#inicio">
+                            <a class="nav-link border-start border-end border-dark" href="#">
                                 <img src="./img/svg/inicio.svg" alt="icono inicio" />
                                 <p class="m-1">Inicio</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link border-end border-dark" href="#transmision">
-                                <img src="./img/svg/beneficiarios.svg" alt="icono transmisión" />
-                                <p class="m-1">Transmisión</p>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -75,33 +86,30 @@
                             </a>
                         </li>
                         <li class="nav-item border-end border-dark navbar_logos-social">
-                            <p class="m-1">Redes sociales MinAgricultura</p>
+                            <p class="m-1">Redes sociales MinTIC</p>
                             <button type="button" class="btn btn-link">
-                                <a class="nav-link" href="https://twitter.com/MinAgricultura" target="_blank">
+                                <a class="nav-link" href="https://x.com/Ministerio_TIC" target="_blank">
                                     <img src="./img/svg/teitter.svg" alt="icono twitter" class="d-block" />
                                 </a>
                             </button>
                             <button type="button" class="btn btn-link">
-                                <a class="nav-link" href="https://www.instagram.com/MinAgriculturaCol/" target="_blank">
+                                <a class="nav-link" href="https://www.instagram.com/ministerio_tic/" target="_blank">
                                     <img src="./img/svg/insta.svg" alt="icono instagram" class="d-block" />
                                 </a>
                             </button>
                             <button type="button" class="btn btn-link">
-                                <a class="nav-link" href="https://www.facebook.com/minagriculturacol" target="_blank">
+                                <a class="nav-link" href="https://www.facebook.com/MinisterioTIC.Colombia" target="_blank">
                                     <img src="./img/svg/face.svg" alt="icono facebook" class="d-block" />
                                 </a>
                             </button>
                             <button type="button" class="btn btn-link">
-                                <a class="nav-link" href="https://www.tiktok.com/@gustavopetrooficial?lang=es"
+                                <a class="nav-link" href="https://www.tiktok.com/@ministerio_tic"
                                     target="_blank">
                                     <img src="./img/svg/tiktok.svg" alt="icono tiktok" class="d-block" />
                                 </a>
                             </button>
                         </li>
                     </ul>
-                    <a class="navbar-brand me-5" href="#">
-                      <img src="./img/logo.jpg" alt="logo Colombia Potencia de la Vida" width="150" />
-                  </a>
                 </div>
             </div>
         </nav>
@@ -131,9 +139,9 @@
         <div id="inicio" class="slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./img/mobil_banner_min.png" class="w-100 d-block d-sm-block d-md-none"
+                    <img src="./img/banner_pasto-min.png" class="w-100 d-block d-sm-block d-md-none"
                         alt="..." />
-                    <img src="./img/desktop_banner_min.png" class="w-100 d-none d-md-block d-lg-block d-xl-block"
+                    <img src="./img/banner_principal_min.png" class="w-100 d-none d-md-block d-lg-block d-xl-block"
                         alt="..." />
                 </div>
             </div>
@@ -149,159 +157,127 @@
         </div>
     </section>-->
     <hr>
-    <!-- Section: cronograma -->
-    <section id="cronograma">
-        <div class="container">
-          <h2 class="text-center">Cronograma</h2>           
-                  <h2>LUNES 20 DE NOVIEMBRE 2023</h2>
-                  <p>ENCUENTRO REGIONAL DE MEDIOS</p>
-                  <div class="tercero">
-                    <table class="table">
-                        <tr>
-                          <th>Hora</th>
-                          <th>Actividad</th>
-                        </tr>
-                        <tr>
-                          <td>8:00 am</td>
-                          <td>Apertura de puertas</td>
-                        </tr>
-                        <tr>
-                          <td>8:00 - 8:30 am</td>
-                          <td>Ingreso y registro</td>
-                        </tr>
-                        <tr>
-                          <td>8:30 - 9:00 am</td>
-                          <td>Actos culturales de bienvenida</td>
-                        </tr>
-                        <tr>
-                          <td>9:00 - 9:05 am</td>
-                          <td>Himno Nacional (Video oficial)</td>
-                        </tr>
-                        <tr>
-                          <td>9:05 - 9:15 am</td>
-                          <td>Palabras de Bienvenida (Presidencia/Vicepresidencia)</td>
-                        </tr>
-                        <tr>
-                          <td>9:15 - 9:20 am</td>
-                          <td>Instalación del Encuentro Regional de Medios Alternativos, Comunitarios y Digitales
-                            Presentación de los objetivos y metas del encuentro.</td>
-                        </tr>
-                        <tr>
-                          <td>9:20 - 9:40 am</td>
-                          <td><b>Panel Sistema de medios públicos:</b> Relación de los medios públicos con la comunicación popular: alianzas, límites y posibilidades.</td>
-                        </tr>
-                        <tr>
-                          <td>9:45 - 10:30 a.m.</td>
-                          <td>
-                            <b>Taller de Asociatividad:</b> Ruta para la formalización de los medios alternativos, comunitarios y populares, beneficios y oferta institucional de la Unidad Solidaria.
-                            
-                          </td>
-                        </tr>
-                        <tr>
-                            <td>10:35 - 11:25 a.m.</td>
-                            <td>
-                              <b>Conectividad y acceso a tecnologías:</b> Estrategia del Gobierno del cambio para superar las brecha de conectividad, el acceso a tecnologías y la pluralidad informativa.
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>11:25 - 12:20 p.m.</td>
-                            <td>
-                              <b>Lanzamiento de campaña</b> “Mejor Colombiano - más sabroso lo nuestro” - Ministerio de Agricultura.
-                              
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>12:30 - 2:00 p.m.</td>
-                            <td>Almuerzo</td>
-                          </tr>
-                          <tr>
-                            <td>2:10 - 2:50 p.m.</td>
-                            <td>
-                              Talleres de la tarde:
-                              <ol>
-                                <li>Investigación y redacción de textos periodísticos</li>
-                                <li>Taller práctico de edición de video</li>
-                                <li>Tendencias y conversación en X</li>
-                                <li>Redacción de textos periodísticos</li>
-                                <li>Taller básico de manejo y posicionamiento de TikTok</li>
-                              </ol>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>2:50 - 3:20</td>
-                            <td><b>Noticieros comunitarios, una oportunidad de pluralidad informativa.</b></td>
-                          </tr>
-                          <tr>
-                            <td>3:20pm - 4:10pm</td>
-                            <td>
-                              Conversatorios paralelos de
-                              <ul>
-                                <li>Futuro y proyecciones de la política pública de Medios Alternativos Independientes y Comunitarios” en Medellín
-                                </li>
-                                <li>Radio comunitaria en Antioquia.
-                                </li>
-                                <li>Diferencias y convergencias entre la comunicación alternativa, popular y comunitaria
-                                </li>
-                              </ul>
-                            </td>
-                          </tr>
-                      </table>
-                      
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-            
+<section class="container py-5">
+  <div class="text-center mb-5">
+    <h2 class="fw-bold">Encuentro de medios alternativos, comunitarios y digitales</h2>
+    <p class="mb-1"><strong>Fecha:</strong> Viernes 15 de agosto de 2025</p>
+    <p class="mb-1"><strong>Hora:</strong> 8:00 am a 5:00 pm</p>
+    <p class="mb-1"><strong>Lugar:</strong> Pasto - Universidad de Nariño, sede centro</p>
+    <p class="mb-1"><strong>Objetivo:</strong> Debatir con los medios alternativos de la región sobre los retos de la comunicación solidaria, las apuestas del Gobierno Nacional y promover la asociatividad.</p>
 
-            
-        </div>
-    </section>
-    <!-- section: introducción -->
-    <section>
-        <div class="container pt-3">
-          <section id="introduction">
-            <div class="container">
-              <h2>La Revolución de la Información en Colombia</h2>
-              <p class="lead">Descubre cómo los medios alternativos están transformando el panorama informativo, cultural y social en Colombia.</p>
-              
-              <hr>
-          
-              <h3>Una Nueva Ola de Comunicación</h3>
-              <p>En las profundidades de Colombia, un cambio está en marcha. Los medios alternativos y digitales están surgiendo como faros de verdad y diversidad en un mar de desinformación.</p>
-          
-              <ul>
-                <li><strong>Lucha Contra la Desinformación:</strong> Descubre cómo los medios independientes están redefiniendo la narrativa y llevando la verdad a las zonas más remotas.</li>
-                <li><strong>Promoción de la Diversidad Cultural:</strong> Celebra la rica diversidad cultural de Colombia a través de medios que representan cada voz y cada historia.</li>
-                <li><strong>Defensa de los Derechos Humanos:</strong> Únete a la causa de los medios que desafían el poder y defienden los derechos fundamentales.</li>
-              </ul>
-          
-              <p><i>Únete a nosotros en el "Segundo Encuentro Nacional de Medios Alternativos Comunitarios y Digitales" para ser parte del cambio.</i></p>
-              
-              <hr>
-          
-              <h3>Objetivos de Nuestro Encuentro</h3>
-              <p>Estamos comprometidos a construir un futuro donde la comunicación sea inclusiva, diversa y poderosa.</p>
-          
-              <h4>Objetivo General</h4>
-              <p>Crear un espacio para la innovación en comunicación, estableciendo una red de apoyo y crecimiento para medios alternativos en Colombia.</p>
-          
-              <h4>Objetivos Específicos</h4>
-              <ol>
-                <li>Forjar la visión de los medios en el nuevo gobierno.</li>
-                <li>Coordinar agendas para fortalecer la voz alternativa.</li>
-                <li>Impulsar la acción comunitaria a través de planes estratégicos.</li>
-              </ol>
-              <section>
-                <div class="container my-5">
-                    <a href="https://forms.gle/eRmMbw5uyF4jpN8w9" target="_blank" class="participa-link">Regístrate Ahora y sé parte de la conversación que está moldeando el futuro de los medios en Colombia.</a>
-                </div>
-            </section>
-            </div>
-          </section>
-          
-        </div>
-    </section>
+    <p class="mb-1">¡Inscríbete y participa! 👇🏽</p>
+    <p class="mb-1"><a href="https://forms.gle/yqoigPgBF4Uu1h9X7" target="_blank" style="color: blue; !important">https://forms.gle/yqoigPgBF4Uu1h9X7</a></p>
+  </div>
+
+  <div class="table-responsive">
+    <table class="table table-striped table-bordered align-middle">
+      <thead class="table-dark">
+        <tr>
+          <th scope="col">Hora</th>
+          <th scope="col">Tema</th>
+          <th scope="col">Participantes</th>
+          <th scope="col">Duración</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>8:00 am - 9:00 am</td>
+          <td>Registro de los invitados / Presentación artística en vivo</td>
+          <td>Logística de Operación</td>
+          <td>30 min / 30 min</td>
+        </tr>
+        <tr>
+          <td>9:00 am - 9:10 am</td>
+          <td>Apertura, Bienvenida y Presentación</td>
+          <td>Germán López, Fanny Esperanza</td>
+          <td>10 min</td>
+        </tr>
+        <tr>
+          <td>9:10 am - 10:10 am</td>
+          <td>Avances de la Política Pública</td>
+          <td>Andrés López <i>(Asesor de la Secretaría de Comunicaciones y Prensa de Presidencia)</i></td>
+          <td>60 min</td>
+        </tr>
+        <tr>
+          <td>10:10 am - 10:50 am</td>
+          <td>Presentación del Proyecto Medios en Red</td>
+          <td>Miguel Gamba <i>(Asesor del Viceministerio de Transformación Digital del MinTIC)</i></td>
+          <td>40 min</td>
+        </tr>
+        <tr>
+          <td>10:50 am - 11:40 am</td>
+          <td>¿Medios solidarios, alternativos, comunitarios, populares? Conceptualizar nuestra identidad.</td>
+          <td>
+            <ul>
+                <li>Germán López (Moderación)</li>
+                <li>Andrés López <small><i>(Asesor de la Secretaría de Comunicaciones y Prensa de Presidencia)</i></small></li>
+                <li>Carina Murcia <small><i>(Viceministra de Transformación Digital del MinTIC)</i></small></li>
+                <li>Eduardo Osorio <small><i>(Subdirector de Radiodifusión sonora del MinTIC)</i></small></li>
+                <li>Yenniffer Parra <small><i>(Directora de la UnidadSolidaria)</i></small></li>
+                <li>Omar Vera <small><i>(Asesor de la Unidad Solidaria)</i></small></li>
+                <li>Rubén Darío Arias <small><i>(Líder de medios Alternativos de Cali)</i></small></li>
+                <li>Yolanda Plazas <small><i>(Lideresa de Medios Alternativos)</i></small></li>
+            </ul>
+          </td>
+          <td>50 min</td>
+        </tr>
+        <tr>
+          <td>11:40 am - 12:00 m</td>
+          <td>Marco jurídico, técnico y misional que transforme el acceso de los medios alternativos y comunitarios al Sistema de Compras Públicas</td>
+          <td>Colombia Compra Eficiente</td>
+          <td>20 min</td>
+        </tr>
+        <tr>
+          <td>12:00 m - 12:20 pm</td>
+          <td>Presentación del Registro Único de Medios Solidarios (RUMS)</td>
+          <td>Faber Burgos - Medios en Red</td>
+          <td>20 min</td>
+        </tr>
+        <tr>
+          <td>12:20 pm - 12:50 pm</td>
+          <td>Preinscripción Escuela Digital</td>
+          <td>Faber Burgos y Nicolás Burgos - Medios en Red</td>
+          <td>30 min</td>
+        </tr>
+        <tr>
+          <td>12:50 pm - 1:50 pm</td>
+          <td colspan="3" class="text-center fw-bold">ALMUERZO</td>
+        </tr>
+        <tr>
+          <td>1:50 pm - 3:00 pm</td>
+          <td>Taller práctico: Desinformación y fake news. Retos de la comunicación en la era digital.</td>
+          <td>María Fernanda Arévalo (Ciberpaz - MinTIC)</td>
+          <td>70 min</td>
+        </tr>
+        <tr>
+          <td>3:00 pm - 4:00 pm</td>
+          <td>Medios solidarios: una potencia de la Economía popular</td>
+          <td>
+            <ul>
+                <li>Sebastián Ruiz <small><li>Asesor de la secretaría de comunicaciones y prensa de Presidencia</li></small></li>
+                <li>Mauricio Rodríguez <small><li>Director de Prosperidad Social</li></small></li>
+                <li>Yadir Arvey Enríquez <small><li>Director de radio universitaria de Nariño</li></small></li>
+                <li>Linda Criollo <small><li>Asesora de Imprenta Nacional</li></small></li>
+            </ul>
+        </td>
+          <td>60 min</td>
+        </tr>
+        <tr>
+          <td>4:00 pm - 4:30 pm</td>
+          <td>Comunicación para narrar la paz</td>
+          <td>Fernando Cárdenas y Anyi Cárdenas - Asesores de Fondo Paz</td>
+          <td>30 min</td>
+        </tr>
+        <tr>
+          <td>4:30 pm - 5:00 pm</td>
+          <td>Cierre y preguntas</td>
+          <td>Germán López y Fanny Esperanza - Medios en Red</td>
+          <td>30 min</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
     <!-- section: formulario -->
 
     <!-- Section: footer-->
